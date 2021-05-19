@@ -21,4 +21,4 @@ const user = {
     username: 'Gabriel Modesto'
 }
 
-socket.emit(constants.events.JOIN_ROOM)
+socket.emit(constants.events.JOIN_ROOM, {user, room})
